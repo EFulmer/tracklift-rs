@@ -1,0 +1,8 @@
+[package]
+name = "tracklift-rs"
+version = "0.1.0"
+authors = ["Eric Fulmer <eric.r.fulmer@gmail.com>"]
+
+[dependencies]
+chrono = "0.4.6"
+diesel = { version = "1.0.0", feaures = ["postgres", "sqlite"] }
